@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/Menu_MainScreen">
+
+    <activity
+        android:id="@+id/mainScreen"
+        android:name="com.example.cinema.MainScreen"
+        android:label="activity_main_screen"
+        tools:layout="@layout/activity_main_screen" />
+
+    <fragment
+        android:id="@+id/Compilation"
+        android:name="com.example.cinema.ui.dashboard.DashboardFragment"
+        android:label="Compilation"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/CollectionScreen"
+        android:name="com.example.cinema.ui.notifications.NotificationsFragment"
+        android:label="CollectionScreen"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/ProfileScreen"
+        android:name="com.example.cinema.MainScreenMenu"
+        android:label="ProfileScreen"
+        tools:layout="@layout/fragment_main_screen_menu" />
+
+</navigation>

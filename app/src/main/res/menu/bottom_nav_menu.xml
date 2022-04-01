@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mainScreen"
+        android:icon="@drawable/home"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/Compilation"
+        android:icon="@drawable/vector"
+        android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@+id/CollectionScreen"
+        android:icon="@drawable/zvezda"
+        android:title="@string/title_notifications" />
+
+    <item
+        android:id="@+id/ProfileScreen"
+        android:icon="@drawable/vector_2"
+        android:title="@string/title_notifications" />
+
+</menu>
